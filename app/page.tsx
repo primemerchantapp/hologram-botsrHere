@@ -112,7 +112,7 @@ export default function KarenHologram() {
               </div>
             ) : (
               <video
-                src="/assets/karen-standby.mp4"
+                src="/api/blob/karen-standby-mode.mp4" // This will be updated after upload
                 autoPlay
                 loop
                 muted
