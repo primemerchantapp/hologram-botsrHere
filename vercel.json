@@ -1,0 +1,5 @@
+{
+  "version": 3,
+  "name": "karen-hologram",
+  "routes": [{ "src": "/api/(.*)", "dest": "/api/$1" }, { "src": "/(.*)", "dest": "/$1" }]
+}
